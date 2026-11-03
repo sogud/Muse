@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.story.json",
+  "include": [
+    "src"
+  ]
+}

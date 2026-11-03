@@ -1,0 +1,26 @@
+{
+  "storyId": "midnight-cafe",
+  "startEpisodeId": "ep_001",
+  "characters": ["luna", "player"],
+  "variables": {
+    "lunaTrust": 0,
+    "playerEnergy": 50
+  },
+  "episodes": [
+    {
+      "id": "ep_001",
+      "titleKey": "ep_001.title",
+      "sceneIds": ["scene_001"]
+    },
+    {
+      "id": "ep_002",
+      "titleKey": "ep_002.title",
+      "sceneIds": ["scene_002"]
+    },
+    {
+      "id": "ep_003",
+      "titleKey": "ep_003.title",
+      "sceneIds": ["scene_003"]
+    }
+  ]
+}

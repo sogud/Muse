@@ -1,0 +1,63 @@
+{
+  "project": {
+    "projectId": "agent-creative-demo",
+    "title": {
+      "en-US": "Night scene"
+    },
+    "version": "1.0.0",
+    "engineVersion": "1.0.0",
+    "targetLanguage": "en-US",
+    "nativeLanguage": "en-US",
+    "level": "A2",
+    "contentRating": "teen",
+    "createdAt": "2026-10-31T00:00:00.000Z",
+    "updatedAt": "2026-10-31T00:00:00.000Z"
+  },
+  "story": {
+    "storyId": "agent-creative-demo",
+    "startEpisodeId": "scene-episode",
+    "characters": [],
+    "variables": {},
+    "episodes": [
+      {
+        "id": "scene-episode",
+        "titleKey": "story.title",
+        "sceneIds": [
+          "scene-01"
+        ]
+      }
+    ]
+  },
+  "characters": [],
+  "episodes": [
+    {
+      "episodeId": "scene-episode",
+      "titleKey": "story.title",
+      "targetExpressionIds": [],
+      "scenes": [
+        {
+          "id": "scene-01",
+          "startNodeId": "end-01",
+          "nodes": [
+            {
+              "id": "end-01",
+              "type": "end",
+              "endingKey": "story.end"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "locales": [
+    {
+      "locale": "en-US",
+      "entries": {
+        "story.title": "Night scene",
+        "story.end": "Fade to black"
+      }
+    }
+  ],
+  "learning": [],
+  "assets": []
+}

@@ -1,0 +1,140 @@
+{
+  "episodeId": "ep_003",
+  "titleKey": "ep_003.title",
+  "summaryKey": "ep_003.summary",
+  "durationMinutes": 3,
+  "storyGoal": "Luna admits that rainy nights unsettle her, and the player offers quiet support.",
+  "learningGoal": "Talk about memories, fear, and gentle emotional support.",
+  "targetExpressionIds": [
+    "expr_i_dont_like_rainy_nights",
+    "expr_it_reminds_me_of_something",
+    "expr_you_dont_have_to_tell_me",
+    "expr_im_here_with_you",
+    "expr_that_means_a_lot"
+  ],
+  "cliffhangerKey": "ep_003.cliffhanger",
+  "scenes": [
+    {
+      "id": "scene_003",
+      "background": "bg_cafe_empty_table",
+      "bgm": "bgm_soft_rain",
+      "startNodeId": "ep003_n001",
+      "nodes": [
+        {
+          "id": "ep003_n001",
+          "type": "narration",
+          "textKey": "line.ep003.n001",
+          "learningPointIds": [],
+          "next": "ep003_n002"
+        },
+        {
+          "id": "ep003_n002",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep003.n002",
+          "emotion": "sad",
+          "sprite": "luna.sad",
+          "voice": "voices/en-US/luna/ep_003_n002.mp3",
+          "learningPointIds": ["expr_i_dont_like_rainy_nights"],
+          "next": "ep003_n003"
+        },
+        {
+          "id": "ep003_n003",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep003.n003",
+          "emotion": "sad",
+          "sprite": "luna.sad",
+          "voice": "voices/en-US/luna/ep_003_n003.mp3",
+          "learningPointIds": ["expr_it_reminds_me_of_something"],
+          "next": "ep003_n004"
+        },
+        {
+          "id": "ep003_n004",
+          "type": "choice",
+          "promptKey": "choice.ep003.n004.prompt",
+          "choices": [
+            {
+              "id": "c1",
+              "textKey": "choice.ep003.n004.c1",
+              "level": "easy",
+              "next": "ep003_n005",
+              "effects": {
+                "lunaTrust": 1
+              }
+            },
+            {
+              "id": "c2",
+              "textKey": "choice.ep003.n004.c2",
+              "level": "natural",
+              "next": "ep003_n006",
+              "effects": {
+                "lunaTrust": 2
+              }
+            },
+            {
+              "id": "c3",
+              "textKey": "choice.ep003.n004.c3",
+              "level": "expressive",
+              "next": "ep003_n007",
+              "effects": {
+                "lunaTrust": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "ep003_n005",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep003.n005",
+          "learningPointIds": ["expr_you_dont_have_to_tell_me"],
+          "next": "ep003_n008"
+        },
+        {
+          "id": "ep003_n006",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep003.n006",
+          "learningPointIds": ["expr_im_here_with_you"],
+          "next": "ep003_n008"
+        },
+        {
+          "id": "ep003_n007",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep003.n007",
+          "learningPointIds": [],
+          "next": "ep003_n008"
+        },
+        {
+          "id": "ep003_n008",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep003.n008",
+          "emotion": "smile",
+          "sprite": "luna.smile",
+          "voice": "voices/en-US/luna/ep_003_n008.mp3",
+          "learningPointIds": ["expr_that_means_a_lot"],
+          "next": "ep003_n009"
+        },
+        {
+          "id": "ep003_n009",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep003.n009",
+          "emotion": "surprised",
+          "sprite": "luna.surprised",
+          "voice": "voices/en-US/luna/ep_003_n009.mp3",
+          "learningPointIds": [],
+          "next": "ep003_n010"
+        },
+        {
+          "id": "ep003_n010",
+          "type": "end",
+          "endingKey": "ep_003.ending"
+        }
+      ]
+    }
+  ]
+}

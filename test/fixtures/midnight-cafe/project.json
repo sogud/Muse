@@ -1,0 +1,18 @@
+{
+  "projectId": "midnight-cafe",
+  "title": {
+    "en-US": "Midnight Cafe",
+    "zh-CN": "午夜咖啡馆"
+  },
+  "description": {
+    "zh-CN": "一个深夜咖啡馆里的治愈系英文互动短剧。"
+  },
+  "version": "0.1.0",
+  "engineVersion": "0.1.0",
+  "targetLanguage": "en-US",
+  "nativeLanguage": "zh-CN",
+  "level": "A2",
+  "contentRating": "teen",
+  "createdAt": "2026-05-24T00:00:00.000Z",
+  "updatedAt": "2026-05-24T00:00:00.000Z"
+}

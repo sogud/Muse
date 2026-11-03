@@ -1,0 +1,137 @@
+{
+  "episodeId": "ep_002",
+  "titleKey": "ep_002.title",
+  "summaryKey": "ep_002.summary",
+  "durationMinutes": 3,
+  "storyGoal": "Luna remembers the player's usual seat and quietly lowers the distance between them.",
+  "learningGoal": "Order something warm, express preference, and show appreciation.",
+  "targetExpressionIds": [
+    "expr_the_usual",
+    "expr_something_warm_please",
+    "expr_that_sounds_nice",
+    "expr_i_appreciate_it",
+    "expr_you_remembered"
+  ],
+  "cliffhangerKey": "ep_002.cliffhanger",
+  "scenes": [
+    {
+      "id": "scene_002",
+      "background": "bg_cafe_counter",
+      "bgm": "bgm_soft_rain",
+      "startNodeId": "ep002_n001",
+      "nodes": [
+        {
+          "id": "ep002_n001",
+          "type": "narration",
+          "textKey": "line.ep002.n001",
+          "learningPointIds": [],
+          "next": "ep002_n002"
+        },
+        {
+          "id": "ep002_n002",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep002.n002",
+          "emotion": "neutral",
+          "sprite": "luna.neutral",
+          "voice": "voices/en-US/luna/ep_002_n002.mp3",
+          "learningPointIds": ["expr_the_usual"],
+          "next": "ep002_n003"
+        },
+        {
+          "id": "ep002_n003",
+          "type": "choice",
+          "promptKey": "choice.ep002.n003.prompt",
+          "choices": [
+            {
+              "id": "c1",
+              "textKey": "choice.ep002.n003.c1",
+              "level": "easy",
+              "next": "ep002_n004",
+              "effects": {
+                "lunaTrust": 1
+              }
+            },
+            {
+              "id": "c2",
+              "textKey": "choice.ep002.n003.c2",
+              "level": "natural",
+              "next": "ep002_n005",
+              "effects": {
+                "lunaTrust": 2
+              }
+            },
+            {
+              "id": "c3",
+              "textKey": "choice.ep002.n003.c3",
+              "level": "expressive",
+              "next": "ep002_n006",
+              "effects": {
+                "lunaTrust": 2
+              }
+            }
+          ]
+        },
+        {
+          "id": "ep002_n004",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep002.n004",
+          "learningPointIds": ["expr_something_warm_please"],
+          "next": "ep002_n007"
+        },
+        {
+          "id": "ep002_n005",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep002.n005",
+          "learningPointIds": ["expr_that_sounds_nice"],
+          "next": "ep002_n007"
+        },
+        {
+          "id": "ep002_n006",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep002.n006",
+          "learningPointIds": ["expr_i_appreciate_it"],
+          "next": "ep002_n007"
+        },
+        {
+          "id": "ep002_n007",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep002.n007",
+          "emotion": "smile",
+          "sprite": "luna.smile",
+          "voice": "voices/en-US/luna/ep_002_n007.mp3",
+          "learningPointIds": [],
+          "next": "ep002_n008"
+        },
+        {
+          "id": "ep002_n008",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep002.n008",
+          "learningPointIds": ["expr_you_remembered"],
+          "next": "ep002_n009"
+        },
+        {
+          "id": "ep002_n009",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep002.n009",
+          "emotion": "sad",
+          "sprite": "luna.sad",
+          "voice": "voices/en-US/luna/ep_002_n009.mp3",
+          "learningPointIds": [],
+          "next": "ep002_n010"
+        },
+        {
+          "id": "ep002_n010",
+          "type": "end",
+          "endingKey": "ep_002.ending"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "episodeId": "ep_001",
+  "titleKey": "ep_001.title",
+  "summaryKey": "ep_001.summary",
+  "durationMinutes": 3,
+  "storyGoal": "The player meets Luna for the first time after a long workday.",
+  "learningGoal": "Talk about feeling tired and respond to gentle concern.",
+  "targetExpressionIds": [
+    "expr_you_look_tired_today",
+    "expr_i_had_a_long_day",
+    "expr_exhausted_but_okay",
+    "expr_do_you_want_to_talk"
+  ],
+  "cliffhangerKey": "ep_001.cliffhanger",
+  "scenes": [
+    {
+      "id": "scene_001",
+      "background": "bg_cafe_rainy_night",
+      "bgm": "bgm_soft_rain",
+      "startNodeId": "n001",
+      "nodes": [
+        {
+          "id": "n001",
+          "type": "narration",
+          "textKey": "line.ep001.n001",
+          "learningPointIds": [],
+          "next": "n002"
+        },
+        {
+          "id": "n002",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep001.n002",
+          "emotion": "neutral",
+          "sprite": "luna.neutral",
+          "voice": "voices/en-US/luna/ep_001_n002.mp3",
+          "learningPointIds": ["expr_you_look_tired_today"],
+          "next": "n003"
+        },
+        {
+          "id": "n003",
+          "type": "choice",
+          "promptKey": "choice.ep001.n003.prompt",
+          "choices": [
+            {
+              "id": "c1",
+              "textKey": "choice.ep001.n003.c1",
+              "level": "easy",
+              "next": "n004",
+              "effects": {
+                "lunaTrust": 1,
+                "playerEnergy": 40
+              }
+            },
+            {
+              "id": "c2",
+              "textKey": "choice.ep001.n003.c2",
+              "level": "natural",
+              "next": "n005",
+              "effects": {
+                "lunaTrust": 2,
+                "playerEnergy": 35
+              }
+            },
+            {
+              "id": "c3",
+              "textKey": "choice.ep001.n003.c3",
+              "level": "expressive",
+              "next": "n006",
+              "effects": {
+                "lunaTrust": 2,
+                "playerEnergy": 30
+              }
+            }
+          ]
+        },
+        {
+          "id": "n004",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep001.n004",
+          "learningPointIds": ["expr_im_tired"],
+          "next": "n007"
+        },
+        {
+          "id": "n005",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep001.n005",
+          "learningPointIds": ["expr_i_had_a_long_day"],
+          "next": "n007"
+        },
+        {
+          "id": "n006",
+          "type": "dialogue",
+          "speaker": "player",
+          "textKey": "line.ep001.n006",
+          "learningPointIds": ["expr_exhausted_but_okay"],
+          "next": "n007"
+        },
+        {
+          "id": "n007",
+          "type": "conditional",
+          "conditions": [
+            {
+              "variable": "lunaTrust",
+              "operator": "gte",
+              "value": 2,
+              "next": "n008"
+            }
+          ],
+          "defaultNext": "n009"
+        },
+        {
+          "id": "n008",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep001.n008",
+          "emotion": "sad",
+          "sprite": "luna.sad",
+          "voice": "voices/en-US/luna/ep_001_n008.mp3",
+          "learningPointIds": ["expr_do_you_want_to_talk"],
+          "next": "n010"
+        },
+        {
+          "id": "n009",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep001.n009",
+          "emotion": "smile",
+          "sprite": "luna.smile",
+          "voice": "voices/en-US/luna/ep_001_n009.mp3",
+          "learningPointIds": [],
+          "next": "n010"
+        },
+        {
+          "id": "n010",
+          "type": "dialogue",
+          "speaker": "luna",
+          "textKey": "line.ep001.n010",
+          "emotion": "surprised",
+          "sprite": "luna.surprised",
+          "voice": "voices/en-US/luna/ep_001_n010.mp3",
+          "learningPointIds": [],
+          "next": "n011"
+        },
+        {
+          "id": "n011",
+          "type": "end",
+          "endingKey": "ep_001.ending"
+        }
+      ]
+    }
+  ]
+}

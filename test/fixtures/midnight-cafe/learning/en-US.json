@@ -1,0 +1,404 @@
+{
+  "targetLanguage": "en-US",
+  "items": [
+    {
+      "id": "expr_you_look_tired_today",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "You look tired today.",
+      "translation": "你今天看起来很累。",
+      "level": "A2",
+      "usage": "Used to gently notice that someone seems tired.",
+      "tokens": [
+        {
+          "text": "look",
+          "lemma": "look",
+          "meaning": "看起来"
+        },
+        {
+          "text": "tired",
+          "lemma": "tired",
+          "meaning": "累的"
+        }
+      ],
+      "examples": [
+        {
+          "text": "You look tired today. Are you okay?",
+          "translation": "你今天看起来很累。你还好吗？"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_001:n002",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_im_tired",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "I'm tired.",
+      "translation": "我累了。",
+      "level": "A1",
+      "usage": "A simple way to say you need rest.",
+      "tokens": [],
+      "examples": [
+        {
+          "text": "I'm tired. I want to go home.",
+          "translation": "我累了。我想回家。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_001:n004",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_i_had_a_long_day",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "I had a long day.",
+      "translation": "我今天过得很累。",
+      "level": "A2",
+      "usage": "Used when your day was tiring, busy, or stressful.",
+      "tokens": [
+        {
+          "text": "had",
+          "lemma": "have",
+          "meaning": "经历了"
+        },
+        {
+          "text": "a long day",
+          "lemma": "long day",
+          "meaning": "漫长劳累的一天"
+        }
+      ],
+      "examples": [
+        {
+          "text": "I had a long day at work.",
+          "translation": "我今天上班很累。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_001:n005",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_exhausted_but_okay",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "I'm exhausted, but I'm okay.",
+      "translation": "我累坏了，但还好。",
+      "level": "A2",
+      "usage": "Used when you are very tired but do not want others to worry too much.",
+      "tokens": [
+        {
+          "text": "exhausted",
+          "lemma": "exhausted",
+          "meaning": "筋疲力尽的"
+        }
+      ],
+      "examples": [
+        {
+          "text": "I'm exhausted, but I'm okay. Thank you.",
+          "translation": "我累坏了，但还好。谢谢你。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_001:n006",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_do_you_want_to_talk",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "Do you want to talk about it?",
+      "translation": "你想聊聊吗？",
+      "level": "A2",
+      "usage": "Used to gently invite someone to share what happened.",
+      "tokens": [
+        {
+          "text": "talk about it",
+          "lemma": "talk about",
+          "meaning": "谈谈这件事"
+        }
+      ],
+      "examples": [
+        {
+          "text": "You seem sad. Do you want to talk about it?",
+          "translation": "你看起来有点难过。你想聊聊吗？"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_001:n008",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_the_usual",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "The usual?",
+      "translation": "还是老样子吗？",
+      "level": "A2",
+      "usage": "Used to ask if someone wants the same thing they normally choose.",
+      "tokens": [
+        {
+          "text": "usual",
+          "lemma": "usual",
+          "meaning": "平常的、惯常的"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Do you want the usual?",
+          "translation": "你想要老样子吗？"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_002:ep002_n002",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_something_warm_please",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "Something warm, please.",
+      "translation": "请来点暖的。",
+      "level": "A2",
+      "usage": "A polite way to ask for a warm drink or simple comfort.",
+      "tokens": [
+        {
+          "text": "something",
+          "lemma": "something",
+          "meaning": "某样东西"
+        },
+        {
+          "text": "warm",
+          "lemma": "warm",
+          "meaning": "温暖的"
+        }
+      ],
+      "examples": [
+        {
+          "text": "It's cold outside. Something warm, please.",
+          "translation": "外面很冷。请来点暖的。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_002:ep002_n004",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_that_sounds_nice",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "That sounds nice.",
+      "translation": "听起来不错。",
+      "level": "A2",
+      "usage": "Used to respond positively to a suggestion.",
+      "tokens": [
+        {
+          "text": "sounds",
+          "lemma": "sound",
+          "meaning": "听起来"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Tea with honey? That sounds nice.",
+          "translation": "蜂蜜茶？听起来不错。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_002:ep002_n005",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_i_appreciate_it",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "I appreciate it.",
+      "translation": "我很感激。",
+      "level": "A2",
+      "usage": "Used to thank someone in a warm and sincere way.",
+      "tokens": [
+        {
+          "text": "appreciate",
+          "lemma": "appreciate",
+          "meaning": "感激、感谢"
+        }
+      ],
+      "examples": [
+        {
+          "text": "You helped me a lot. I appreciate it.",
+          "translation": "你帮了我很多。我很感激。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_002:ep002_n006",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_you_remembered",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "You remembered?",
+      "translation": "你还记得？",
+      "level": "A2",
+      "usage": "Used when you are surprised that someone remembers something about you.",
+      "tokens": [
+        {
+          "text": "remembered",
+          "lemma": "remember",
+          "meaning": "记得"
+        }
+      ],
+      "examples": [
+        {
+          "text": "You remembered my favorite seat?",
+          "translation": "你还记得我最喜欢的座位？"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_002:ep002_n008",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_i_dont_like_rainy_nights",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "I don't like rainy nights.",
+      "translation": "我不喜欢雨夜。",
+      "level": "A2",
+      "usage": "Used to say a specific situation makes you uncomfortable.",
+      "tokens": [
+        {
+          "text": "rainy nights",
+          "lemma": "rainy night",
+          "meaning": "雨夜"
+        }
+      ],
+      "examples": [
+        {
+          "text": "I don't like rainy nights. They feel lonely.",
+          "translation": "我不喜欢雨夜。它们让人觉得孤单。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_003:ep003_n002",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_it_reminds_me_of_something",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "It reminds me of something.",
+      "translation": "它会让我想起一些事。",
+      "level": "A2",
+      "usage": "Used when something brings back a memory.",
+      "tokens": [
+        {
+          "text": "reminds me of",
+          "lemma": "remind of",
+          "meaning": "让某人想起"
+        }
+      ],
+      "examples": [
+        {
+          "text": "This song reminds me of something.",
+          "translation": "这首歌让我想起一些事。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_003:ep003_n003",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_you_dont_have_to_tell_me",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "You don't have to tell me.",
+      "translation": "你不用告诉我。",
+      "level": "A2",
+      "usage": "Used to respect someone's privacy or emotional boundary.",
+      "tokens": [
+        {
+          "text": "don't have to",
+          "lemma": "not have to",
+          "meaning": "不必"
+        }
+      ],
+      "examples": [
+        {
+          "text": "You don't have to tell me if it hurts.",
+          "translation": "如果那让你难受，你不用告诉我。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_003:ep003_n005",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_im_here_with_you",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "I'm here with you.",
+      "translation": "我在这里陪你。",
+      "level": "A2",
+      "usage": "Used to comfort someone by saying they are not alone.",
+      "tokens": [
+        {
+          "text": "with you",
+          "lemma": "with",
+          "meaning": "和你一起、陪着你"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Don't worry. I'm here with you.",
+          "translation": "别担心。我在这里陪你。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_003:ep003_n006",
+        "reuseIn": []
+      }
+    },
+    {
+      "id": "expr_that_means_a_lot",
+      "type": "expression",
+      "targetLanguage": "en-US",
+      "text": "That means a lot.",
+      "translation": "这对我很重要。",
+      "level": "A2",
+      "usage": "Used to say someone's words or actions are meaningful to you.",
+      "tokens": [
+        {
+          "text": "means a lot",
+          "lemma": "mean a lot",
+          "meaning": "很重要、很有意义"
+        }
+      ],
+      "examples": [
+        {
+          "text": "You stayed with me. That means a lot.",
+          "translation": "你留下来陪我。这对我很重要。"
+        }
+      ],
+      "review": {
+        "firstSeen": "ep_003:ep003_n008",
+        "reuseIn": []
+      }
+    }
+  ]
+}

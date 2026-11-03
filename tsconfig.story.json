@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "paths": {
+      "@aivn/story-schema": [
+        "./packages/story-schema/src/index.ts"
+      ],
+      "@aivn/story-engine": [
+        "./packages/story-engine/src/index.ts"
+      ],
+      "@aivn/validator": [
+        "./packages/validator/src/index.ts"
+      ],
+      "@aivn/storypack": [
+        "./packages/storypack/src/index.ts"
+      ]
+    }
+  }
+}

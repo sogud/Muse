@@ -1,0 +1,47 @@
+{
+  "id": "luna",
+  "name": "Luna",
+  "role": "cafe_barista",
+  "personality": ["calm", "reserved", "kind inside"],
+  "speakingStyle": {
+    "en-US": "Short, gentle, natural English. Avoid long sentences.",
+    "zh-CN": "简短、温柔、略带距离感。"
+  },
+  "relationshipArc": [
+    {
+      "episodeId": "ep_001",
+      "state": "polite but distant"
+    }
+  ],
+  "visualDesign": {
+    "ageRange": "young adult",
+    "hair": "dark blue short hair",
+    "eyes": "soft gray eyes",
+    "outfit": "black cafe uniform",
+    "colorPalette": ["deep blue", "warm amber", "soft gray"],
+    "artStyle": "anime visual novel, soft lighting"
+  },
+  "sprites": {
+    "neutral": {
+      "id": "luna.neutral",
+      "key": "assets/characters/luna/neutral.png"
+    },
+    "smile": {
+      "id": "luna.smile",
+      "key": "assets/characters/luna/smile.png"
+    },
+    "sad": {
+      "id": "luna.sad",
+      "key": "assets/characters/luna/sad.png"
+    },
+    "surprised": {
+      "id": "luna.surprised",
+      "key": "assets/characters/luna/surprised.png"
+    }
+  },
+  "voice": {
+    "provider": "openai",
+    "voice": "coral",
+    "instructions": "Speak softly, gently, and a little tired."
+  }
+}

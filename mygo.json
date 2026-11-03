@@ -1,0 +1,7 @@
+{
+  "name": "Muse",
+  "slug": "muse",
+  "identifier": "com.oto.app",
+  "version": "0.1.0",
+  "out": "build"
+}
